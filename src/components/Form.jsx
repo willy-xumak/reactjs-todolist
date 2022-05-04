@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Button from './Button';
 
 const Form = ({ insertNewTodo }) => {
   const [inputValue, setInputValue] = useState('');
@@ -21,7 +22,7 @@ const Form = ({ insertNewTodo }) => {
         onChange={handleInputTextChanged}
         value={inputValue}
       ></input>
-      <button onClick={handleClickEvent}>Create</button>
+      <Button label="Create" handleClickEvent={handleClickEvent} color="#fff"></Button>
     </form>
   );
 };

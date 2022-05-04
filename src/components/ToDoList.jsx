@@ -16,10 +16,10 @@ const ToDoList = () => {
   const deleteTodoHandler = (id) => {
     setTodoList(todoList.filter((todo) => todo.id !== id));
   };
-  
+
   return (
     <>
-      <Title title="My ToDo List" />
+      <Title title="My ToDo List" color="#fff"/>
       <Form insertNewTodo={newTodo} />
       <div className="todoList">
         {todoList.map((todo, index) => (
