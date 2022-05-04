@@ -12,7 +12,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   label: 'Click Me',
   color: '#fff',
-  backgroundColor: '#000',
+  backgroundColor: 'transparent',
   size: 'md',
 };
 

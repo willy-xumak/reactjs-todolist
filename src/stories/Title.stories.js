@@ -11,5 +11,5 @@ export const Primary = Template.bind({});
 
 Primary.args = {
   title: 'Example',
-  color: '#000',
+  color: '#fff',
 };

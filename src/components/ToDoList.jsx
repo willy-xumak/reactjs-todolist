@@ -25,7 +25,6 @@ const ToDoList = () => {
         {todoList.map((todo, index) => (
           <ToDo
             key={index}
-            index={index}
             todo={todo}
             deleteTodoHandler={deleteTodoHandler}
           />
@@ -34,5 +33,7 @@ const ToDoList = () => {
     </>
   );
 };
+
+
 
 export default ToDoList;

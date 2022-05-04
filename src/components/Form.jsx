@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Button from './Button';
+import PropTypes from 'prop-types';
 
 const Form = ({ insertNewTodo }) => {
   const [inputValue, setInputValue] = useState('');
@@ -22,9 +23,17 @@ const Form = ({ insertNewTodo }) => {
         onChange={handleInputTextChanged}
         value={inputValue}
       ></input>
-      <Button label="Create" handleClickEvent={handleClickEvent} color="#fff"></Button>
+      <Button
+        label="Create"
+        handleClickEvent={handleClickEvent}
+        color="#fff"
+      ></Button>
     </form>
   );
+};
+
+Form.propTypes = {
+  insertNewTodo: PropTypes.func,
 };
 
 export default Form;
