@@ -4,7 +4,7 @@ const Button = ({
   label,
   handleClickEvent,
   size = 'md',
-  color = '#fff',
+  color = '#000',
   backgroundColor = 'transparent',
 }) => {
   let scale = 1;
@@ -15,7 +15,7 @@ const Button = ({
     backgroundColor,
     color,
     borderRadius: '6px',
-    border: '2px solid #fff',
+    border: '2px solid #000',
     margin: '4px',
     padding: '8px 16px',
     cursor: 'pointer',

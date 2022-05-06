@@ -19,21 +19,15 @@ const ToDoList = () => {
 
   return (
     <>
-      <Title title="My ToDo List" color="#fff"/>
+      <Title title="My ToDo List" color="#000" />
       <Form insertNewTodo={newTodo} />
       <div className="todoList">
         {todoList.map((todo, index) => (
-          <ToDo
-            key={index}
-            todo={todo}
-            deleteTodoHandler={deleteTodoHandler}
-          />
+          <ToDo key={index} todo={todo} deleteTodoHandler={deleteTodoHandler} />
         ))}
       </div>
     </>
   );
 };
-
-
 
 export default ToDoList;

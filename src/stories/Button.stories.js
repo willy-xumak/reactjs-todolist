@@ -1,7 +1,7 @@
 import Button from '../components/Button';
 
 export default {
-  title: 'Components/Button',
+  title: 'components/Button',
   component: Button,
   argTypes: { handleClickEvent: { action: 'handleClick' } },
 };
@@ -11,7 +11,7 @@ const Template = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
   label: 'Click Me',
-  color: '#fff',
+  color: '#000',
   backgroundColor: 'transparent',
   size: 'md',
 };

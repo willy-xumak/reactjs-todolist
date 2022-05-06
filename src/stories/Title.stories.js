@@ -1,7 +1,7 @@
 import Title from '../components/Title';
 
 export default {
-  title: 'Components/Title',
+  title: 'components/Title',
   component: Title,
 };
 
@@ -11,5 +11,5 @@ export const Primary = Template.bind({});
 
 Primary.args = {
   title: 'Example',
-  color: '#fff',
+  color: '#000',
 };

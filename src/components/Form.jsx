@@ -26,7 +26,7 @@ const Form = ({ insertNewTodo }) => {
       <Button
         label="Create"
         handleClickEvent={handleClickEvent}
-        color="#fff"
+        color="#000"
       ></Button>
     </form>
   );

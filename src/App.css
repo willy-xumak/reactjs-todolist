@@ -4,12 +4,12 @@ body {
   text-align: center;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(108, 186, 255);
+  background-color: #fff;
 }
 
 input,
 p {
-  color: #fff;
+  color: #000;
 }
 
 p {
@@ -19,7 +19,7 @@ p {
 input {
   background-color: transparent;
   border-radius: 6px;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   padding: 8px;
   margin: 8px;
 }
@@ -31,7 +31,7 @@ input {
 }
 
 input::placeholder {
-  color: rgba(255, 255, 255, 0.643);
+  color: rgb(84, 84, 84);
 }
 
 .todoList {
@@ -40,18 +40,18 @@ input::placeholder {
 }
 
 .todo {
-  border: 2px solid #fff;
+  border: 2px solid #000;
   border-radius: 6px;
   padding: 8px 2px;
   margin: 12px 0;
 }
 
 .todo-text {
-  color: #fff;
+  color: #000;
 }
 
 .todo-delete {
-  color: #fff;
+  color: #000;
   float: right;
   padding: 0 7px;
   font-weight: 700;

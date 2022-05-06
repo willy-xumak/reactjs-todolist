@@ -11,7 +11,7 @@ const Template = (args) => <div style={{ width:"24vw" }}><ToDo style={{width: "2
 export const Primary = Template.bind({});
 Primary.args = {
     todo: {
-        id: '1',
+        id: 1,
         text: 'Example ToDo Item'
     }
 };

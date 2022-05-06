@@ -1,7 +1,7 @@
 import Form from '../components/Form';
 
 export default {
-  title: 'Components/Form',
+  title: 'components/Form',
   component: Form,
   argTypes: { insertNewTodo: { action: 'insertNewToDo' } },
 };

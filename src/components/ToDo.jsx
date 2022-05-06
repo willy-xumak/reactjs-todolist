@@ -12,10 +12,10 @@ const ToDo = ({ todo: { id, text }, deleteTodoHandler }) => {
 };
 
 ToDo.propTypes = {
-  todo: {
-    id: PropTypes.string.isRequired,
+  todo: PropTypes.shape({
+    id: PropTypes.number.isRequired,
     text: PropTypes.string.isRequired,
-  },
+  }),
   deleteTodoHandler: PropTypes.func.isRequired,
 };
 export default ToDo;
